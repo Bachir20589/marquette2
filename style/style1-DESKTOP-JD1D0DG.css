@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&family=Lexend+Deca:wght@100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+body{
+    padding:0;
+    margin:0;
+    background-color:black;
+    padding-bottom: 2%;
+}
+
+header p{
+    display: flex;
+    justify-content: center;
+    font-family: 'Lexend Deca';
+    color: aliceblue;
+    font-size: 25px;
+    margin-top: 5%;
+}
+main p{
+     display: flex;
+    justify-content: center;
+    color: aliceblue;
+    font-size: 17px;
+    margin-top: 0%;
+}
+#P{
+    display: flex;
+    justify-self: center;
+    margin-top: 3%;
+    border: 1px solid black;
+    color: aliceblue;
+    background-color: #007878;
+    padding-bottom: 0;
+    padding-left: 2%;
+    border-radius: 10px;
+    padding-right: 40%;
+}
+#N{
+    display: flex;
+    justify-self: center;
+    margin-top: 3%;
+    border: 1px solid black;
+    color: aliceblue;
+    background-color: #007878;
+    padding-bottom: 0;
+    padding-left: 2%;
+    border-radius: 10px;
+    padding-right: 45%;
+}
+#E{
+    display: flex;
+    justify-self: center;
+    margin-top: 2%;
+    border: 1px solid black;
+    color: aliceblue;
+    background-color: #007878;
+    padding-left: 2%;
+    border-radius: 10px;
+    padding-right: 43%;
+}
+#M{
+    display: flex;
+    justify-self: center;
+    margin-top: 2%;
+    border: 1px solid black;
+    color: aliceblue;
+    background-color: #007878;
+    padding-left: 1%;
+    border-radius: 10px;
+    padding-right: 30%;
+}
+
+ #r h1{
+    display: flex;
+    justify-self: center;
+    border: 1px solid black;
+    color: aliceblue;
+    margin-top: 0%;
+    background-color: #007878;
+    padding: 2%;
+    border-radius: 3px;
+    width: 1px;
+}
+
+#r p {
+    font-size: 9px;
+    margin-left:0%;
+    margin-top:.5%
+}
+
+
+
+#a{
+    display: flex;
+    justify-self: center;
+    margin-top: 2%;
+    border: 5px sloid brown;
+    color: aliceblue;
+    background-color: #007878;
+    padding-bottom: -2%;
+    padding-left: 10%;
+    border-radius: 5%;
+    padding-right: 10%;
+    padding-top: 1%;
+    font-family: 'Lexend Deca';
+    border-radius: 10px;
+}
+
+
+#r{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 25px;
+    gap: 30px;
+}
+
+
+
+
+@media screen and (max-width:1030px) and (min-width:768px){
+    #p{
+        /* display: flex;
+        justify-self: center;
+        margin-top: 3%;
+        border: 1px solid black;
+        color: aliceblue;
+        background-color: #007878;
+        padding-bottom: 0;
+        padding-left: 2%;
+        border-radius: 10px; */
+        padding-right: 43%;
+    }
+}
+
+@media screen and (max-width:1030px) and (min-width:768px){
+    #N{
+        /* display: flex;
+        justify-self: center;
+        margin-top: 3%;
+        border: 1px solid black;
+        color: aliceblue;
+        background-color: #007878;
+        padding-bottom: 0;
+        padding-left: 2%;
+        border-radius: 10px; */
+        padding-right: 45%;
+    }
+}
+
+@media screen and  (max-width:1030px) and (min-width:768px) {
+    #E{
+        /* display: flex;
+        justify-self: center;
+        margin-top: 2%;
+        border: 1px solid black;
+        color: aliceblue;
+        background-color: #007878;
+        padding-left: 2%;
+        border-radius: 10px; */
+        padding-right: 44%;
+    }
+}
+
+@media screen and (max-width:1030px) and (min-width:768px){
+       #M{
+            display: flex;
+            justify-self: center;
+            margin-top: 2%;
+            border: 1px solid black;
+            color: aliceblue;
+            background-color: #007878;
+            padding-left: 2%;
+            border-radius: 10px;
+            padding-right: 39%;
+       } 
+}
+
+@media screen  and (max-width:1030px) and (min-width:768px) {
+    #r h1{
+        /* display: flex;
+        justify-self: center;
+        border: 1px solid black;
+        color: aliceblue;
+        margin-top: 0%;
+        background-color: #007878; */
+        padding: 1%;
+        /* border-radius: 3px;
+        width: 1px; */
+    }
+}
+
+@media screen and (max-width:1031) {
+    #p{
+        padding-right: 43%
+    }
+}
+
+@media screen and (max-width:1031) {
+    #N{
+        padding-right: 45%
+    }
+}
+
+@media screen and (max-width:1031) {
+    #E{
+        padding-right: 44%;
+    }
+}
+
+@media screen and (max-width:1031) {
+    #M{
+        padding-right: 44%;
+        color: black;
+    }
+}
+
+@media screen and (max-width:1031) {
+    #r h1{
+            padding: 1%;
+    }
+}
